@@ -13,9 +13,23 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mattermost-plugin-updater</name>
 	<description>Mattermost Plugin Updater</description>
+	<licenses>
+		<license>
+			<name>Apache License Version 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<url>https://github.com/maruTA-bis5/mattermost-plugin-updater</url>
+		<connection>scm:git:git://github.com/maruTA-bis5/mattermost-plugin-updater.git</connection>
+		<developerConnection>scm:git:git@github.com:maruTA-bis5/mattermost-plugin-updater.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 
 	<properties>
 		<java.version>11</java.version>
+		<tagNameFormat>v@{project.version}</tagNameFormat>
 	</properties>
 
 	<dependencies>
